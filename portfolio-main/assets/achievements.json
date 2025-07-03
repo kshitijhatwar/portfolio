@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Kubernetes Cluster Deployment using KOPS on AWS",
+        "date": "2025-04-23",
+        "description": "Built a Kubernetes environment on AWS using KOPS to deploy a scalable, multi-tier cloud-native application. Automated the provisioning of EC2 instances, VPC networking, IAM roles, and storage volumes using KOPS configurations. Deployed application components using Kubernetes manifests, configured NGINX Ingress for external access, and integrated Route 53 for DNS resolution with custom domain mapping.",
+        "proofLink": "https://github.com/kshitijhatwar/vprofile-project",
+        "rating": 3,
+        "category": "Project",
+        "icon": "🏆"
+    },
+    {
+        "title": "Argo CD Multi-Cluster Deployment using Hub",
+        "date": "2025-03-31",
+        "description": "Designed and implemented a hub-and-spoke model using Argo CD for deploying multiple applications across separate AWS EKS clusters. Demonstrated strong understanding of GitOps workflows, multi-cluster Kubernetes management, and CI/CD automation using Argo CD for enterprise-grade deployments.",
+        "proofLink": "https://github.com/kshitijhatwar/Argo-CD-Multicluster-Deployment-of-Various-Applications-Using-HubSpoke-Model-",
+        "rating": 3,
+        "category": "Project",
+        "icon": "🎯"
+    },
+    {
+        "title": "More Projects on GitHub",
+        "date": "2023-09-20",
+        "description": "Worked on various CI-CD, SRE, projects.  Do visit my GITHUB profile.",
+        "proofLink": "https://github.com/kshitijhatwar",
+        "rating": 3,
+        "category": "GITHUB Profile",
+        "icon": "🎯"
+    }
+]
