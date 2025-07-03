@@ -17,7 +17,7 @@ function typeWriterName() {
         { char: "i", class: "i2" },
         { char: "j", class: "j" },
         { char: " ", class: "space" },
-        { char: "H", class: "h2" },
+        { char: "H", class: "h" },
         { char: "a", class: "a" },
         { char: "t", class: "t2" },
         { char: "w", class: "w" },
