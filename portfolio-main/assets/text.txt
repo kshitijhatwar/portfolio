@@ -1,0 +1,18 @@
+{
+        "title": "CLASS 12 ISC BOARD Examinations",
+        "date": "2021-07-24",
+        "description": "Average Marks: 85%\n\nMaths: 89/100\nComputer Science: 93/100\nPhysics: 82/100\nChemistry: 74/100\nEnglish: 88/100",
+        "proofLink": "https://drive.google.com/file/d/1W1EcOi47Ab2KxGthjHfwjdsSToLfjOi_/",
+        "rating": 4,
+        "category": "Test Score",
+        "icon": "🎓"
+    },
+    {
+        "title": "CLASS 10 ICSE BOARD Examinations",
+        "date": "2019-05-07",
+        "description": "Average Marks: 93%\n\nMaths: 100/100\nComputer Applications: 95/100\nScience: 84/100\nSocial Studies: 90/100\nEnglish: 84/100\nHindi: 94/100",
+        "proofLink": "https://drive.google.com/file/d/1HUimJUEjh9209rTV1WkqkQsVDI4KoSlk/",
+        "rating": 4,
+        "category": "Test Score",
+        "icon": "🎓"
+    }
