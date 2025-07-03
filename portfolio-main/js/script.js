@@ -18,11 +18,11 @@ function typeWriterName() {
         { char: "j", class: "j" },
         { char: " ", class: "space" },
         { char: "H", class: "h" },
-        { char: "a", class: "a" },
+        { char: "a", class: "a2" },
         { char: "t", class: "t2" },
         { char: "w", class: "w" },
-	{ char: "a", class: "a" },
-	{ char: "r", class: "r" }
+	    { char: "a", class: "a" },
+	    { char: "r", class: "r" }
     ];
 
     const nameElement = document.getElementById("animated-name");
@@ -254,7 +254,7 @@ async function loadAchievements() {
                                             <polyline points="15,3 21,3 21,9"/>
                                             <line x1="10" y1="14" x2="21" y2="3"/>
                                         </svg>
-                                        View Proof
+                                        Link
                                     </a>
                                 ` : ''}
                             </div>
