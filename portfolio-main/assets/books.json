@@ -10,7 +10,7 @@
   },
   {
     "bookName": "End-to-End Kubernetes Deployment on AWS Using KOPS: Scalable, Cloud-Native Application Hosting",
-    "coverImage": "./assets/images/book-covers/TheAlmanackofNavalRavikant.jpg",
+    "coverImage": "./assets/images/book-covers/1_n4wdXvU_GCDvAoLCkG.jpg",
     "publishYear": "2025",
     "genre": "Kubernetes, AWS, KOPS, DNS, Nginx",
     "quotes": [
@@ -19,7 +19,7 @@
   },
   {
     "bookName": "Hosting an Application with Docker Compose.",
-    "coverImage": "./assets/images/book-covers/ZeroToOne.jpg",
+    "coverImage": "./assets/images/book-covers/1_W_IM9hVdcSxXCFqdJW9xyQ.jpg",
     "publishYear": "2025",
     "genre": "Docker, DockerCompose, ",
     "dateOfCompletion": "2025-06-08",
@@ -38,7 +38,7 @@
   },
   {
     "bookName": "Docker CLI Commands",
-    "coverImage": "./assets/images/book-covers/WhyIAmAnAtheist.jpg",
+    "coverImage": "./assets/images/book-covers/0_KzGPFWGxD3-KLhvn.jpg",
     "publishYear": "2024",
     "genre": "Docker",
     "quotes": [
@@ -47,6 +47,7 @@
   },
   {
     "bookName": " CI-CD Pipeline",
+    "coverImage": "./assets/images/book-covers/1_QuITXabmkPEw92R7kmNQpQ.jpg",
     "publishYear": "2024",
     "genre": "Jenkins, Docker, Linux, AWS, Maven, Sonarqube, Nexus",
     "dateOfCompletion": "2024-04-08",
@@ -56,7 +57,7 @@
   },
   {
     "bookName": "Deployment of Docker Container to webserver using Jenkins Pipeline",
-    "coverImage": "./assets/images/book-covers/IHearYou.jpg",
+    "coverImage": "./assets/images/book-covers/1_OI0dYPIrn85og4Gn7NNyfg.jpg",
     "publishYear": "2024",
     "genre": "Jenkins, Docker",
     "quotes": [
