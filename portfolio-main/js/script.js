@@ -43,7 +43,7 @@ document.getElementById("contact-form").addEventListener("submit", async functio
 
 // ==================== TYPEWRITER NAME ANIMATION ====================
 function typeWriterName() {
-    const name = "Kaushal Vyas";
+    const name = "Kshitij Hatwar";
     const letters = [
         { char: "K", class: "k" },
         { char: "s", class: "s" },
@@ -249,7 +249,7 @@ async function loadAchievements() {
         // Show loading state
         container.innerHTML = '<div class="timeline"><div class="loading-achievements">Loading achievements...</div></div>';
 
-        const response = await fetch("C:/Users/khatwar/Downloads/portfolio-main/portfolio-main/assets/achievements.json");
+        const response = await fetch("./assets/achievements.json");
         if (!response.ok) throw new Error("Failed to fetch achievements");
 
         const achievements = await response.json();
