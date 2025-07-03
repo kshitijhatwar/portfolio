@@ -43,7 +43,7 @@ document.getElementById("contact-form").addEventListener("submit", async functio
 
 // ==================== TYPEWRITER NAME ANIMATION ====================
 function typeWriterName() {
-    const name = "Kaushal Vyas";
+    const name = "Kshitij Hatwar";
     const letters = [
         { char: "K", class: "k" },
         { char: "s", class: "s" },
@@ -57,8 +57,8 @@ function typeWriterName() {
         { char: "a", class: "a" },
         { char: "t", class: "t2" },
         { char: "w", class: "w" },
-	{ char: "a", class: "a" },
-	{ char: "r", class: "r" }
+	    { char: "a", class: "a" },
+	    { char: "r", class: "r" }
     ];
 
     const nameElement = document.getElementById("animated-name");
