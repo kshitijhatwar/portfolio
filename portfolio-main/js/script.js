@@ -1,4 +1,9 @@
-
+// ==================== ON PAGE LOAD ====================
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("current-year").textContent = new Date().getFullYear(); // Update footer year
+    loadQuotes();       // Load quotes from books.json
+    typeWriterName();   // Start name animation
+});
 
 // ==================== TYPEWRITER NAME ANIMATION ====================
 function typeWriterName() {
