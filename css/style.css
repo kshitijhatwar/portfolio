@@ -598,13 +598,6 @@ textarea:focus {
   }
 }
 
-/* ========== MESSAGES & FEEDBACK ========== */
-.success-message,
-#thank-you-message {
-  color: #34A853;
-  text-align: center;
-  animation: fadeIn 0.5s;
-}
 
 /* ========== ANIMATIONS ========== */
 @keyframes fadeIn {
@@ -658,17 +651,17 @@ textarea:focus {
 }
 
 /* Letter Colors */
-#animated-name span.k {
+#animated-name span.t {
   color: #4285F4;
 }
 
 /* K - blue */
-#animated-name span.a {
+#animated-name span.i {
   color: #EA4335;
 }
 
 /* a - red */
-#animated-name span.u {
+#animated-name span.w {
   color: #FBBC05;
 }
 
@@ -688,22 +681,22 @@ textarea:focus {
 }
 
 /* l - blue */
-#animated-name span.v {
+#animated-name span.j {
   color: #FBBC05;
 }
 
 /* V - yellow */
-#animated-name span.y {
+#animated-name span.k {
   color: #34A853;
 }
 
 /* y - green */
-#animated-name span.a2 {
+#animated-name span.a {
   color: #4285F4;
 }
 
 /* a - blue */
-#animated-name span.s2 {
+#animated-name span.t2 {
   color: #EA4335;
 }
 

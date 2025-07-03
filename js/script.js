@@ -5,42 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     typeWriterName();   // Start name animation
 });
 
-// ==================== CONTACT FORM HANDLER ====================
-document.getElementById("contact-form").addEventListener("submit", async function (e) {
-    e.preventDefault();
-
-    const form = e.target;
-    const btn = form.querySelector("button");
-    const thankYou = document.getElementById("thank-you-message");
-
-    btn.disabled = true;
-    btn.textContent = "Sending...";
-
-    try {
-        await fetch("https://formsubmit.co/ajax/kaushalvyasofficial@gmail.com", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            },
-            body: JSON.stringify({
-                name: form.name.value,
-                email: form.email.value,
-                message: form.message.value,
-                _subject: "New Portfolio Message"
-            })
-        });
-
-        form.style.display = "none";
-        thankYou.style.display = "block";
-
-    } catch (error) {
-        btn.textContent = "Failed - Try Again";
-        btn.disabled = false;
-        alert("Message failed to send. Please email me directly at kaushalvyasofficial@gmail.com");
-    }
-});
-
 // ==================== TYPEWRITER NAME ANIMATION ====================
 function typeWriterName() {
     const name = "Kshitij Hatwar";
@@ -53,8 +17,8 @@ function typeWriterName() {
         { char: "i", class: "i2" },
         { char: "j", class: "j" },
         { char: " ", class: "space" },
-        { char: "H", class: "h2" },
-        { char: "a", class: "a" },
+        { char: "H", class: "h" },
+        { char: "a", class: "a2" },
         { char: "t", class: "t2" },
         { char: "w", class: "w" },
 	    { char: "a", class: "a" },
@@ -249,7 +213,7 @@ async function loadAchievements() {
         // Show loading state
         container.innerHTML = '<div class="timeline"><div class="loading-achievements">Loading achievements...</div></div>';
 
-        const response = await fetch("C:/Users/khatwar/Downloads/portfolio-main/portfolio-main/assets/achievements.json");
+        const response = await fetch("./assets/achievements.json");
         if (!response.ok) throw new Error("Failed to fetch achievements");
 
         const achievements = await response.json();

@@ -22,7 +22,6 @@
     "coverImage": "./assets/images/book-covers/1_W_IM9hVdcSxXCFqdJW9xyQ.jpg",
     "publishYear": "2025",
     "genre": "Docker, DockerCompose, ",
-    "dateOfCompletion": "2025-06-08",
     "quotes": [
       "Hosted an application using Docker Compose by containerizing a multi-tier Java-based web application. Created and deployed custom Docker images for the application, MySQL database, and load balancer. Integrated official RabbitMQ and Memcached images to support messaging and caching functionalities. Used Docker Compose to orchestrate and manage multi-container services for efficient local development and deployment."
     ]
@@ -50,7 +49,6 @@
     "coverImage": "./assets/images/book-covers/1_QuITXabmkPEw92R7kmNQpQ.jpg",
     "publishYear": "2024",
     "genre": "Jenkins, Docker, Linux, AWS, Maven, Sonarqube, Nexus",
-    "dateOfCompletion": "2024-04-08",
     "quotes": [
       "I have built a pipeline that begins by pulling code from GitHub. Next, Maven compiles the code and runs unit tests. The code is then sent to SonarQube for a quality check. If the code quality passes, Maven builds the project, and the resulting artifact is deployed to Sonatype Nexus. Following this, a Docker image is created and pushed to DockerHub. Finally, the Docker image is pulled and run on a web server."
     ]
