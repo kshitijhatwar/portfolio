@@ -5,42 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     typeWriterName();   // Start name animation
 });
 
-// ==================== CONTACT FORM HANDLER ====================
-document.getElementById("contact-form").addEventListener("submit", async function (e) {
-    e.preventDefault();
-
-    const form = e.target;
-    const btn = form.querySelector("button");
-    const thankYou = document.getElementById("thank-you-message");
-
-    btn.disabled = true;
-    btn.textContent = "Sending...";
-
-    try {
-        await fetch("https://formsubmit.co/ajax/kaushalvyasofficial@gmail.com", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            },
-            body: JSON.stringify({
-                name: form.name.value,
-                email: form.email.value,
-                message: form.message.value,
-                _subject: "New Portfolio Message"
-            })
-        });
-
-        form.style.display = "none";
-        thankYou.style.display = "block";
-
-    } catch (error) {
-        btn.textContent = "Failed - Try Again";
-        btn.disabled = false;
-        alert("Message failed to send. Please email me directly at kaushalvyasofficial@gmail.com");
-    }
-});
-
 // ==================== TYPEWRITER NAME ANIMATION ====================
 function typeWriterName() {
     const name = "Kshitij Hatwar";

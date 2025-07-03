@@ -598,13 +598,6 @@ textarea:focus {
   }
 }
 
-/* ========== MESSAGES & FEEDBACK ========== */
-.success-message,
-#thank-you-message {
-  color: #34A853;
-  text-align: center;
-  animation: fadeIn 0.5s;
-}
 
 /* ========== ANIMATIONS ========== */
 @keyframes fadeIn {
