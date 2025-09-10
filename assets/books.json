@@ -1,5 +1,23 @@
 [
   {
+    "bookName": "ETCD Quorum in Kubernetes",
+    "coverImage": "./assets/images/book-covers/ThingsNoOneTaughtUsAboutLove.jpg",
+    "publishYear": "2025",
+    "genre": "Kubernetes, ETCD",
+    "quotes": [
+      "Explained in details about ETCD Quorum of master nodes in Kubernetes"
+    ]
+  },
+  {
+    "bookName": "Affinity and Anti-Affinity Rules in Kubernetes",
+    "coverImage": "./assets/images/book-covers/ThingsNoOneTaughtUsAboutLove.jpg",
+    "publishYear": "2025",
+    "genre": "Kubernetes",
+    "quotes": [
+      "Explained in details how Affinity and Anti-Affinity rules work"
+    ]
+  },
+  {
     "bookName": "Role of CNI in Kubernetes",
     "coverImage": "./assets/images/book-covers/ThingsNoOneTaughtUsAboutLove.jpg",
     "publishYear": "2025",
